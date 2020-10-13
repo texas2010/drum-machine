@@ -1,0 +1,58 @@
+body {
+  background-color: #444;
+  color: white;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.box {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box > div {
+  width: 284px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.drum-pad {
+  width: 80px;
+  height: 80px;
+  background-color: #888;
+  margin-right: 2px;
+  margin-bottom: 2px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  color: #000;
+  border: 6px solid #444;
+}
+
+.drum-pad:hover {
+  background-color: #bbb;
+  border: 6px solid #000;
+}
+
+header {
+  width: 100%;
+  margin-bottom: 6px;
+}
+
+h1 {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 6px;
+}
+
+#display {
+  background-color: #888;
+  height: 20px;
+  padding: 10px 0;
+  margin: 0;
+}
